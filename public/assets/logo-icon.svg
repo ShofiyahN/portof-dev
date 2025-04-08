@@ -1,0 +1,13 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Mengubah path untuk berada di tengah viewBox -->
+    <path id="curve" d="M20 50 C20 50, 150 50, 280 50" fill="none"/>
+  </defs>
+  
+  <!-- Menyesuaikan text properties untuk centering -->
+  <text font-size="280" font-family="Comic Sans MS" fill="#556B2F" dominant-baseline="middle">
+    <textPath href="#curve" startOffset="50%" text-anchor="middle">
+      <tspan>S</tspan>
+    </textPath>
+  </text>
+</svg>

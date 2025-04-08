@@ -1,0 +1,16 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Text Path untuk efek melengkung halus -->
+  <defs>
+    <path id="curve" d="M20 50 C20 50, 150 60, 280 50" fill="none"/>
+  </defs>
+  
+  <!-- Text utama -->
+  <text font-size="60" font-family="Comic Sans MS" fill="#556B2F">
+    <textPath href="#curve" startOffset="50%">
+      <tspan text-anchor="middle">Sofia</tspan>
+    </textPath>
+  </text>
+  
+  <!-- Elemen dekoratif -->
+  <path d="M40 70 Q150 90 260 70" stroke="#556B2F" fill="none" stroke-width="3"/>
+</svg>
